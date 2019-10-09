@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo|Oswald');
+
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-image: url("../assets/background2.jpg");
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(85, 83, 226);
+    color: white;
+    font-size: 125%; 
+}
+
+header nav a {
+    color: white;
+    border: 5px solid rgb(245, 241, 28);
+    padding: 13px 18px;
+    text-decoration: none;
+    transition: color 200ms ease-in;
+
+}
+
+blink {
+    animation: blinker 1.0s linear infinite;
+    color: #ffffff;
+}
+
+@keyframes blinker {  
+    50% { opacity: 0; }
+}
+
+header nav a:hover {
+    color: rgb(255, 80, 147);
+    border: 1px solid whitesmoke;
+    animation: blinker 1s linear infinite;
+
+}
+
+header, main {
+    padding: 8px;
+}
+
+h1 {
+    font-family: serif; }
+
+    h2 {
+        background-color: rgb(235, 122, 122); 
+        }
+main {
+    background-color: rgb(235, 122, 122); 
+
+
+}        
+        h3 {
+}
+footer{
+    background-color: rgb(122, 212, 235); 
+    color:  rgb(122, 212, 235); 
+}
+.hidden {
+    display: none;
+}
+
+.centered {
+    text-align: center;
+}
+
+.price button {
+display: none; 
+}
+.price {
+    font-size: 0.0rem;
+   
+}
+
+#birds li {
+    list-style: none;
+    position: relative;
+    width: 250px;
+    height: 300px;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    text-align: top;
+}
+
+
+
+#birds li img {
+    width: 75%;
+    margin-top: 1px;
+}
+
+#birds {
+    /* padding: 10px;
+    display: flex;
+    flex-wrap: wrap; */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+table {
+    position: relative;  
+    width: 900px; 
+    border-collapse: collapse;
+    
+
+    /* display: flex;  */
+    /* justify-content: center;  */
+    /* align-items: center; */
+}
+    td{
+        background-color: rgb(68, 60, 60); 
+        color: white; 
+        font-size: 150%; 
+        text-align: center; 
+
+
+    } 
+    
+    th {
+        background-color: rgb(170, 61, 61); 
+        text-align: center; 
+        border: solid 4px red; 
+        font-size: 175%; 
+
+    
+    }
+
+.connect {
+    border: none; 
+}
